@@ -1,6 +1,6 @@
 # MIDI2GCODE
 
-Play a song with a 3D printer.
+Play a song with a FDM 3D printer. SLA printers don't have motors, so they cannot play music.
 
 **Warning**: Be ready to turn off the 3D printer in case the motor reaches
 the axis limit.

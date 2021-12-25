@@ -20,6 +20,9 @@ Args:
     don't move the extruder unless it is heated.
 * `--home`: Move to home position before playing.
 
+Copy the gcode to the printer and print it.
+The gcode flavor is Marlin.
+
 Example command:
 
 `python main.py -i a.mid -o a.gcode -a Y -r X --home`

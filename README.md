@@ -1,4 +1,4 @@
-# MIDI2GCODE
+# MIDI to GCODE
 
 Play a song with a FDM 3D printer. SLA printers don't have motors, so they cannot play music.
 
@@ -30,7 +30,7 @@ Example command:
 ## How it works:
 
 The 3D printer moves motors, and usually makes noises. These noises are arbitrary in most prints,
-but if you move them at certain speeds, they may form a song.
+but if you move the motors at certain speeds, the resulting sounds may form a song.
 
 The script computes the speeds based on a MIDI file (the song).
 

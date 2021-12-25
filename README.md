@@ -5,7 +5,7 @@ Play a song with a 3D printer.
 **Warning**: Be ready to turn off the 3D printer in case the motor reaches
 the axis limit.
 
-Usage:
+## Usage:
 
 `python main.py ...`
 
@@ -20,9 +20,18 @@ Args:
     don't move the extruder unless it is heated.
 * `--home`: Move to home position before playing.
 
-How it works:
+Example command:
+
+`python main.py -i a.mid -o a.gcode -a Y -r X --home`
+
+## How it works:
 
 The 3D printer moves motors, and usually makes noises. These noises are arbitrary in most prints,
 but if you move them at certain speeds, they may form a song.
 
 The script computes the speeds based on a MIDI file (the song).
+
+## Future features
+
+* Multiple simultaneous voices and timbres using all axes.
+* Compute direction of move to stay roughly in the middle.
